@@ -59,7 +59,7 @@ It picks up scanned purchase order PDF files from SFTP and uses docling and Olla
 
 ```
 ├── README.md - You are here!
-├── template.json
+├── template.json - the template
 ├── test-files/
 │ ├── packing-lists/ - PDF files used for testing
 │ └── purchase-orders/ - Json file with mocked purchase order data
