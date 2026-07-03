@@ -49,10 +49,9 @@ It picks up scanned purchase order PDF files from SFTP and uses docling and Olla
 **How to customize the workflow**
 
 1. Change the credentials for:
-
-- Ollama in Agent nodes.
-- FTP Nodes
-
+   - Ollama in Agent nodes.
+   - FTP Nodes
+1. The move file FTP Node uses the status in lowercases as folder name. If the folder names on the (S)FTP server are not completed, failed, error then change the leading set nodes that feed this node.
 1. Doublecheck data table name in all datatable nodes if you chose a different name.
 1. Change docling-serve endpoint in HTTP node named "Post PDF to docling-serve"
 
