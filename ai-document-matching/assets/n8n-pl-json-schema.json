@@ -1,0 +1,137 @@
+{
+  "properties": {
+    "po_number": { "title": "Po Number", "type": "string" },
+    "pl_date": { "format": "date", "title": "Pl Date", "type": "string" },
+    "vendor": {
+      "properties": {
+        "company_name": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "title": "Company Name"
+        },
+        "contact": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "title": "Contact"
+        },
+        "email": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "title": "Email"
+        },
+        "address": {
+          "anyOf": [
+            {
+              "properties": {
+                "address": {
+                  "anyOf": [{ "type": "string" }, { "type": "null" }],
+                  "title": "Address"
+                },
+                "postal_code": {
+                  "anyOf": [{ "type": "string" }, { "type": "null" }],
+                  "title": "Postal Code"
+                },
+                "city": {
+                  "anyOf": [{ "type": "string" }, { "type": "null" }],
+                  "title": "City"
+                },
+                "country": {
+                  "anyOf": [{ "type": "string" }, { "type": "null" }],
+                  "title": "Country"
+                }
+              },
+              "required": ["address", "postal_code", "city", "country"],
+              "title": "Address",
+              "type": "object"
+            },
+            { "type": "null" }
+          ]
+        }
+      },
+      "required": ["company_name", "contact", "email", "address"],
+      "title": "Party",
+      "type": "object"
+    },
+    "ship_to": {
+      "properties": {
+        "company_name": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "title": "Company Name"
+        },
+        "contact": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "title": "Contact"
+        },
+        "email": {
+          "anyOf": [{ "type": "string" }, { "type": "null" }],
+          "title": "Email"
+        },
+        "address": {
+          "anyOf": [
+            {
+              "properties": {
+                "address": {
+                  "anyOf": [{ "type": "string" }, { "type": "null" }],
+                  "title": "Address"
+                },
+                "postal_code": {
+                  "anyOf": [{ "type": "string" }, { "type": "null" }],
+                  "title": "Postal Code"
+                },
+                "city": {
+                  "anyOf": [{ "type": "string" }, { "type": "null" }],
+                  "title": "City"
+                },
+                "country": {
+                  "anyOf": [{ "type": "string" }, { "type": "null" }],
+                  "title": "Country"
+                }
+              },
+              "required": ["address", "postal_code", "city", "country"],
+              "title": "Address",
+              "type": "object"
+            },
+            { "type": "null" }
+          ]
+        }
+      },
+      "required": ["company_name", "contact", "email", "address"],
+      "title": "Party",
+      "type": "object"
+    },
+    "line_items": {
+      "items": {
+        "properties": {
+          "sku": {
+            "anyOf": [{ "type": "string" }, { "type": "null" }],
+            "title": "Sku"
+          },
+          "description": {
+            "anyOf": [{ "type": "string" }, { "type": "null" }],
+            "title": "Description"
+          },
+          "quantity": {
+            "anyOf": [{ "type": "integer" }, { "type": "null" }],
+            "title": "Quantity"
+          }
+        },
+        "required": ["sku", "description", "quantity"],
+        "title": "PackingLineItem",
+        "type": "object"
+      },
+      "title": "Line Items",
+      "type": "array"
+    },
+    "notes": {
+      "anyOf": [{ "type": "string" }, { "type": "null" }],
+      "title": "Notes"
+    }
+  },
+  "required": [
+    "po_number",
+    "pl_date",
+    "vendor",
+    "ship_to",
+    "line_items",
+    "notes"
+  ],
+  "title": "PackingList",
+  "type": "object"
+}

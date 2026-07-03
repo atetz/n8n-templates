@@ -1,0 +1,586 @@
+[
+  {
+    "po_number": "PO-33959",
+    "po_date": "2026-02-27",
+    "vendor": {
+      "company_name": "ACME CORP EUROPE",
+      "contact": "Willy E Coyote",
+      "email": "wec@acme.fakedomail",
+      "address": {
+        "address": "Marktgracht 12",
+        "postal_code": "1012 XX",
+        "city": "Amsterdam",
+        "country": "The Netherlands"
+      }
+    },
+    "ship_to": {
+      "company_name": "ATE Commerce",
+      "contact": "Adam Tetz",
+      "email": "ate@commerce.fakedomail",
+      "address": {
+        "address": "21 Rue Industriel",
+        "postal_code": "21000",
+        "city": "Dijon",
+        "country": "France"
+      }
+    },
+    "line_items": [
+      {
+        "sku": "JSA-7351-AC",
+        "description": "Lightweight Jacket",
+        "quantity": 520,
+        "unit_price": 2029.39,
+        "total": 1055282.8
+      },
+      {
+        "sku": "SPD-1591-MW",
+        "description": "Ergonomic Smartwatch",
+        "quantity": 769,
+        "unit_price": 1554.09,
+        "total": 1195095.21
+      },
+      {
+        "sku": "OTI-7434-FO",
+        "description": "Waterproof Monitor",
+        "quantity": 679,
+        "unit_price": 2204.15,
+        "total": 1496617.85
+      },
+      {
+        "sku": "UOC-6772-GF",
+        "description": "Wireless Smartwatch",
+        "quantity": 38,
+        "unit_price": 2427.74,
+        "total": 92254.12
+      },
+      {
+        "sku": "OVW-7817-MP",
+        "description": "High-Performance Speaker",
+        "quantity": 763,
+        "unit_price": 2868.58,
+        "total": 2188726.54
+      },
+      {
+        "sku": "OQR-3802-KA",
+        "description": "Lightweight Laptop",
+        "quantity": 669,
+        "unit_price": 2383.22,
+        "total": 1594374.18
+      },
+      {
+        "sku": "XCE-6311-FL",
+        "description": "Eco-Friendly Jacket",
+        "quantity": 803,
+        "unit_price": 3845.93,
+        "total": 3088281.79
+      }
+    ],
+    "totals": {
+      "currency": "EUR",
+      "subtotal": 10710632.49,
+      "tax_rate": 0.21,
+      "tax_amount": 2249232.82,
+      "shipping": 17.44,
+      "total": 12959882.75
+    },
+    "ship_via": "UPS",
+    "terms": "DAP",
+    "notes": "Deliver to reception desk only"
+  },
+  {
+    "po_number": "PO-40085",
+    "po_date": "2026-03-07",
+    "vendor": {
+      "company_name": "Stark Industries Ltd",
+      "contact": "Tony Stark",
+      "email": "tony@starkindustries.fakedomail",
+      "address": {
+        "address": "8 Iron Street",
+        "postal_code": "D08 1X2Y",
+        "city": "Dublin 8",
+        "country": "Ireland"
+      }
+    },
+    "ship_to": {
+      "company_name": "ATE Commerce",
+      "contact": "Adam Tetz",
+      "email": "ate@commerce.fakedomail",
+      "address": {
+        "address": "21 Rue Industriel",
+        "postal_code": "21000",
+        "city": "Dijon",
+        "country": "France"
+      }
+    },
+    "line_items": [
+      {
+        "sku": "NJJ-6054-RM",
+        "description": "Modern Vacuum Cleaner",
+        "quantity": 34,
+        "unit_price": 1500.85,
+        "total": 51028.9
+      },
+      {
+        "sku": "VRD-9027-NG",
+        "description": "Vintage Headphones",
+        "quantity": 330,
+        "unit_price": 3633.69,
+        "total": 1199117.7
+      },
+      {
+        "sku": "JEX-2620-FB",
+        "description": "Professional Mouse",
+        "quantity": 236,
+        "unit_price": 2954.07,
+        "total": 697160.52
+      },
+      {
+        "sku": "YEX-9548-VJ",
+        "description": "Portable Smartwatch",
+        "quantity": 786,
+        "unit_price": 1271.13,
+        "total": 999108.18
+      },
+      {
+        "sku": "MTR-2076-XK",
+        "description": "Classic Keyboard",
+        "quantity": 987,
+        "unit_price": 204.06,
+        "total": 201407.22
+      },
+      {
+        "sku": "RYD-4918-HI",
+        "description": "Deluxe Jacket",
+        "quantity": 940,
+        "unit_price": 3459.47,
+        "total": 3251901.8
+      }
+    ],
+    "totals": {
+      "currency": "EUR",
+      "subtotal": 6399724.32,
+      "tax_rate": 0.21,
+      "tax_amount": 1343942.11,
+      "shipping": 18.61,
+      "total": 7743685.04
+    },
+    "ship_via": "UPS",
+    "terms": "DAP",
+    "notes": "Place in dry location — keep away from rain"
+  },
+  {
+    "po_number": "PO-26076",
+    "po_date": "2026-03-14",
+    "vendor": {
+      "company_name": "ACME CORP EUROPE",
+      "contact": "Willy E Coyote",
+      "email": "wec@acme.fakedomail",
+      "address": {
+        "address": "Marktgracht 12",
+        "postal_code": "1012 XX",
+        "city": "Amsterdam",
+        "country": "The Netherlands"
+      }
+    },
+    "ship_to": {
+      "company_name": "ATE Commerce",
+      "contact": "Adam Tetz",
+      "email": "ate@commerce.fakedomail",
+      "address": {
+        "address": "21 Rue Industriel",
+        "postal_code": "21000",
+        "city": "Dijon",
+        "country": "France"
+      }
+    },
+    "line_items": [
+      {
+        "sku": "HNS-5153-CB",
+        "description": "Ergonomic Laptop",
+        "quantity": 858,
+        "unit_price": 75.14,
+        "total": 64470.12
+      },
+      {
+        "sku": "IBR-3248-VF",
+        "description": "Ergonomic Mouse",
+        "quantity": 334,
+        "unit_price": 2830.18,
+        "total": 945280.12
+      },
+      {
+        "sku": "MZH-9996-FT",
+        "description": "Deluxe Smartwatch",
+        "quantity": 543,
+        "unit_price": 506.37,
+        "total": 274958.91
+      },
+      {
+        "sku": "QAD-1840-QQ",
+        "description": "High-Performance Smartphone",
+        "quantity": 353,
+        "unit_price": 1654.26,
+        "total": 583953.78
+      },
+      {
+        "sku": "JWU-5632-SO",
+        "description": "Premium Vacuum Cleaner",
+        "quantity": 957,
+        "unit_price": 1312.59,
+        "total": 1256148.63
+      },
+      {
+        "sku": "LXZ-6185-IS",
+        "description": "Waterproof Coffee Maker",
+        "quantity": 983,
+        "unit_price": 3611.61,
+        "total": 3550212.63
+      },
+      {
+        "sku": "AMP-8022-ZX",
+        "description": "Eco-Friendly Vacuum Cleaner",
+        "quantity": 488,
+        "unit_price": 2192.81,
+        "total": 1070091.28
+      },
+      {
+        "sku": "OKE-4827-OW",
+        "description": "Professional Speaker",
+        "quantity": 44,
+        "unit_price": 3870.25,
+        "total": 170291.0
+      },
+      {
+        "sku": "PVP-9315-JD",
+        "description": "Ergonomic Water Bottle",
+        "quantity": 729,
+        "unit_price": 3294.05,
+        "total": 2401362.45
+      },
+      {
+        "sku": "BAM-1980-IW",
+        "description": "Ergonomic Backpack",
+        "quantity": 287,
+        "unit_price": 3452.15,
+        "total": 990767.05
+      },
+      {
+        "sku": "JZX-4493-SF",
+        "description": "Heavy-Duty Gaming Chair",
+        "quantity": 16,
+        "unit_price": 3862.22,
+        "total": 61795.52
+      },
+      {
+        "sku": "HZG-4195-XM",
+        "description": "Vintage Vacuum Cleaner",
+        "quantity": 906,
+        "unit_price": 333.17,
+        "total": 301852.02
+      },
+      {
+        "sku": "EDF-7965-XM",
+        "description": "Compact Gaming Chair",
+        "quantity": 880,
+        "unit_price": 2334.8,
+        "total": 2054624.0
+      },
+      {
+        "sku": "FWK-9217-PN",
+        "description": "Smart Sneakers",
+        "quantity": 804,
+        "unit_price": 3675.1,
+        "total": 2954780.4
+      }
+    ],
+    "totals": {
+      "currency": "EUR",
+      "subtotal": 16680587.91,
+      "tax_rate": 0.21,
+      "tax_amount": 3502923.46,
+      "shipping": 27.96,
+      "total": 20183539.33
+    },
+    "ship_via": "UPS",
+    "terms": "DDP",
+    "notes": "Do not stack other packages on top"
+  },
+  {
+    "po_number": "PO-84392",
+    "po_date": "2026-03-15",
+    "vendor": {
+      "company_name": "ACME CORP EUROPE",
+      "contact": "Willy E Coyote",
+      "email": "wec@acme.fakedomail",
+      "address": {
+        "address": "Marktgracht 12",
+        "postal_code": "1012 XX",
+        "city": "Amsterdam",
+        "country": "The Netherlands"
+      }
+    },
+    "ship_to": {
+      "company_name": "ATE Commerce",
+      "contact": "Adam Tetz",
+      "email": "ate@commerce.fakedomail",
+      "address": {
+        "address": "21 Rue Industriel",
+        "postal_code": "21000",
+        "city": "Dijon",
+        "country": "France"
+      }
+    },
+    "line_items": [
+      {
+        "sku": "JHG-8126-LQ",
+        "description": "Wireless Air Purifier",
+        "quantity": 863,
+        "unit_price": 2365.55,
+        "total": 2041469.65
+      },
+      {
+        "sku": "CEK-9014-BO",
+        "description": "Classic Air Purifier",
+        "quantity": 867,
+        "unit_price": 380.77,
+        "total": 330127.59
+      },
+      {
+        "sku": "FAB-1283-LX",
+        "description": "Deluxe Monitor",
+        "quantity": 346,
+        "unit_price": 3329.24,
+        "total": 1151917.04
+      },
+      {
+        "sku": "FRM-6272-XW",
+        "description": "Limited Edition Blender",
+        "quantity": 103,
+        "unit_price": 2878.72,
+        "total": 296508.16
+      },
+      {
+        "sku": "DKD-8564-TU",
+        "description": "Classic Speaker",
+        "quantity": 808,
+        "unit_price": 2813.42,
+        "total": 2273243.36
+      },
+      {
+        "sku": "DYJ-8638-QI",
+        "description": "Lightweight Blender",
+        "quantity": 724,
+        "unit_price": 1511.03,
+        "total": 1093985.72
+      },
+      {
+        "sku": "RDY-3704-RN",
+        "description": "Deluxe Tablet",
+        "quantity": 829,
+        "unit_price": 491.82,
+        "total": 407718.78
+      },
+      {
+        "sku": "FVQ-5777-DL",
+        "description": "Portable Jacket",
+        "quantity": 222,
+        "unit_price": 728.44,
+        "total": 161713.68
+      },
+      {
+        "sku": "OIT-3911-BJ",
+        "description": "Deluxe Sneakers",
+        "quantity": 355,
+        "unit_price": 1486.33,
+        "total": 527647.15
+      },
+      {
+        "sku": "OIV-1792-TV",
+        "description": "Ultra Jacket",
+        "quantity": 411,
+        "unit_price": 2044.18,
+        "total": 840157.98
+      },
+      {
+        "sku": "XEY-1946-DY",
+        "description": "Modern Smartphone",
+        "quantity": 868,
+        "unit_price": 1636.02,
+        "total": 1420065.36
+      }
+    ],
+    "totals": {
+      "currency": "EUR",
+      "subtotal": 10544554.47,
+      "tax_rate": 0.21,
+      "tax_amount": 2214356.44,
+      "shipping": 44.44,
+      "total": 12758955.35
+    },
+    "ship_via": "UPS",
+    "terms": "DAP",
+    "notes": "Contact sender before returning to depot"
+  },
+  {
+    "po_number": "PO-04677",
+    "po_date": "2026-02-17",
+    "vendor": {
+      "company_name": "ACME CORP EUROPE",
+      "contact": "Willy E Coyote",
+      "email": "wec@acme.fakedomail",
+      "address": {
+        "address": "Marktgracht 12",
+        "postal_code": "1012 XX",
+        "city": "Amsterdam",
+        "country": "The Netherlands"
+      }
+    },
+    "ship_to": {
+      "company_name": "ATE Commerce",
+      "contact": "Adam Tetz",
+      "email": "ate@commerce.fakedomail",
+      "address": {
+        "address": "21 Rue Industriel",
+        "postal_code": "21000",
+        "city": "Dijon",
+        "country": "France"
+      }
+    },
+    "line_items": [
+      {
+        "sku": "GII-4152-UW",
+        "description": "Limited Edition Mouse",
+        "quantity": 806,
+        "unit_price": 1556.75,
+        "total": 1254740.5
+      },
+      {
+        "sku": "GRI-1517-RO",
+        "description": "Smart Speaker",
+        "quantity": 873,
+        "unit_price": 1532.37,
+        "total": 1337759.01
+      },
+      {
+        "sku": "ICH-7308-FC",
+        "description": "Professional Backpack",
+        "quantity": 333,
+        "unit_price": 779.33,
+        "total": 259516.89
+      },
+      {
+        "sku": "CTH-9779-OF",
+        "description": "Premium Vacuum Cleaner",
+        "quantity": 592,
+        "unit_price": 1557.92,
+        "total": 922288.64
+      },
+      {
+        "sku": "PVD-5722-VY",
+        "description": "Wireless Sneakers",
+        "quantity": 658,
+        "unit_price": 3913.91,
+        "total": 2575352.78
+      },
+      {
+        "sku": "FEA-2165-HC",
+        "description": "Portable Smartwatch",
+        "quantity": 221,
+        "unit_price": 612.26,
+        "total": 135309.46
+      },
+      {
+        "sku": "AQT-1055-WK",
+        "description": "Organic Coffee Maker",
+        "quantity": 721,
+        "unit_price": 630.61,
+        "total": 454669.81
+      }
+    ],
+    "totals": {
+      "currency": "EUR",
+      "subtotal": 6939637.09,
+      "tax_rate": 0.21,
+      "tax_amount": 1457323.79,
+      "shipping": 21.53,
+      "total": 8396982.41
+    },
+    "ship_via": "UPS",
+    "terms": "DDP",
+    "notes": "Do not stack other packages on top"
+  },
+  {
+    "po_number": "PO-08157",
+    "po_date": "2026-02-24",
+    "vendor": {
+      "company_name": "ACME CORP EUROPE",
+      "contact": "Willy E Coyote",
+      "email": "wec@acme.fakedomail",
+      "address": {
+        "address": "Marktgracht 12",
+        "postal_code": "1012 XX",
+        "city": "Amsterdam",
+        "country": "The Netherlands"
+      }
+    },
+    "ship_to": {
+      "company_name": "ATE Commerce",
+      "contact": "Adam Tetz",
+      "email": "ate@commerce.fakedomail",
+      "address": {
+        "address": "21 Rue Industriel",
+        "postal_code": "21000",
+        "city": "Dijon",
+        "country": "France"
+      }
+    },
+    "line_items": [
+      {
+        "sku": "TRI-5562-RC",
+        "description": "Lightweight Water Bottle",
+        "quantity": 472,
+        "unit_price": 3307.33,
+        "total": 1561059.76
+      },
+      {
+        "sku": "WXR-7097-HH",
+        "description": "Professional Smartwatch",
+        "quantity": 937,
+        "unit_price": 665.48,
+        "total": 623554.76
+      },
+      {
+        "sku": "TFE-2631-MU",
+        "description": "Ultra Keyboard",
+        "quantity": 67,
+        "unit_price": 2127.59,
+        "total": 142548.53
+      },
+      {
+        "sku": "LHY-3172-OA",
+        "description": "Organic Camera",
+        "quantity": 923,
+        "unit_price": 2127.47,
+        "total": 1963654.81
+      },
+      {
+        "sku": "WPI-9937-VQ",
+        "description": "Deluxe Vacuum Cleaner",
+        "quantity": 158,
+        "unit_price": 2535.58,
+        "total": 400621.64
+      }
+    ],
+    "totals": {
+      "currency": "EUR",
+      "subtotal": 4691439.5,
+      "tax_rate": 0.21,
+      "tax_amount": 985202.29,
+      "shipping": 41.19,
+      "total": 5676682.98
+    },
+    "ship_via": "UPS",
+    "terms": "DAP",
+    "notes": "Contact sender before returning to depot"
+  }
+]
